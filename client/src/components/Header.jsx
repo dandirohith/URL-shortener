@@ -3,6 +3,7 @@ import {
   FaSignOutAlt,
   FaUser,
   FaClipboardList,
+  FaHome,
 } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
@@ -24,9 +25,17 @@ function Header() {
       <div className="flex-1 flex mx-8 ">
         <img
           className="object-cover p-4 mx-auto"
+          href="/"
           src="https://see.fontimg.com/api/renderfont4/owdl4/eyJyIjoiZnMiLCJoIjo1MywidyI6MTI1MCwiZnMiOjQyLCJmZ2MiOiIjRjFGMUYxIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/U2hvcnRVUkw/danger-night-personal-use.png"
           alt="logo"
         />
+        <ul>
+          <li className="">
+            <Link to="/">
+              <FaHome /> Home
+            </Link>
+          </li>
+        </ul>
         <ul>
           {user ? (
             <>
