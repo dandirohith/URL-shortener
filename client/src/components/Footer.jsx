@@ -9,7 +9,7 @@ const Footer = () => {
             © 2024 Rohith Dandi. All Rights Reserved.
           </p>
           <div className="flex flex-row w-[250px] justify-evenly mt-2">
-            <a href="">
+            <a href="https://in.linkedin.com/in/rohith-dandi-17d12">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5"
@@ -20,7 +20,7 @@ const Footer = () => {
               </svg>
             </a>
 
-            <a href="">
+            <a href="https://in.linkedin.com/in/rohith-dandi-17d12">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5"
@@ -31,10 +31,7 @@ const Footer = () => {
               </svg>
             </a>
 
-            <a
-              href="https://in.linkedin.com/in/rohith-dandi-17d12"
-              target="_blank"
-            >
+            <a href="https://in.linkedin.com/in/rohith-dandi-17d12">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5"
@@ -45,7 +42,7 @@ const Footer = () => {
               </svg>
             </a>
 
-            <a href="https://github.com/dandirohith" target="_blank">
+            <a href="https://github.com/dandirohith">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5"
